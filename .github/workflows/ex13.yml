@@ -13,3 +13,4 @@ jobs:
     steps:
     - name: usevar
       run: echo "var is ${{ env.SOMEVAR }}"
+      
