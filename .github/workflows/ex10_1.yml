@@ -38,4 +38,5 @@ jobs:
           name: output-log-file
       - shell: bash
         run: |
-          ls output.log
+             ls -l  output.log ; echo ; echo ; cat output.log
+        
