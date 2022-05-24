@@ -20,4 +20,5 @@ jobs:
         with:
           name: output-log-file
       - shell: bash
-        run: ls -l  output.log ; echo ; echo ; cat output.log
+        run: |
+             ls -l  output.log ; echo ; echo ; cat output.log
